@@ -34,8 +34,11 @@ rrr : rra and rrb at the same time.
 
 USAGE:
 ARG="numbers"; ./push_swap $ARG				- to get sorting instructions
+
 ARG="numbers"; ./checker $ARG				- to check sorting instructions for correctness
+
 ARG="numbers"; ./checker $ARG -v			- to visualize stacks being sorted
+
 ARG="numbers"; ./checker $ARG -vc			- to visualize stacks being sorted with color
 
 ARG="numbers"; ./push_swap $ARG | ./checker $ARG -vc	- to get instructions and visualize sorting
